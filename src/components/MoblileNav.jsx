@@ -48,11 +48,12 @@ const MoblileNav = ({toggleMenu,isOpen}) => {
             <span>Contact</span> <MdKeyboardArrowRight />
           </NavLink>
           <NavLink
-              to="/blog"
-              className="text-[#333D29] hover:text-[#666AE5] text-[15px] font-semibold cursor-pointer"
-            >
-              Blog
-            </NavLink>
+            to="/blog"
+            className="py-1  text-left rounded-md font-semibold flex items-center justify-between w-full border-[1px] border-purple-400 hover:bg-purple-500 hover:text-white px-5"
+          >
+            <span>Blog</span> <MdKeyboardArrowRight />
+          </NavLink>
+         
           <NavLink to="mailto:contact@trendsupmedia.com">
             <button className="h-[50px] w-[170px] bg-[#4CA4FF] rounded-[5px] flex justify-center items-center transition-all hover:bg-[#666AE5]">
               <p className="text-[15px] text-[#FFFFFF] font-semibold font-helvetica">

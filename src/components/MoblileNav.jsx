@@ -47,12 +47,13 @@ const MoblileNav = ({toggleMenu,isOpen}) => {
           >
             <span>Contact</span> <MdKeyboardArrowRight />
           </NavLink>
-           <Link
-                        to="mailto:contact@trendsupmedia.com"
-                        className="text-[15px] text-[#FFFFFF] font-semibold font-helvetica"
-                      >
-                        Let's Talk
-                      </Link>
+          <NavLink to="mailto:contact@trendsupmedia.com">
+            <button className="h-[50px] w-[170px] bg-[#4CA4FF] rounded-[5px] flex justify-center items-center transition-all hover:bg-[#666AE5]">
+              <p className="text-[15px] text-[#FFFFFF] font-semibold font-helvetica">
+                Let's Talk
+              </p>
+            </button>
+          </NavLink>
         </div>
       </div>
   )

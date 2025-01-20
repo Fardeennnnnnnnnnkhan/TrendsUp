@@ -14,9 +14,9 @@ const Header = () => {
   return (
     <div className="fixed w-full h-fit py-2 px-5 flex items-center justify-between top-0 bg-white z-50">
       <div>
-  <a href="/">
+  <Link to="/">
     <img src={logo} alt="Logo" className="h-[50px] w-[166px]" />
-  </a>
+  </Link>
 </div>
 
       <button className="md:hidden " onClick={toggleMenu}>

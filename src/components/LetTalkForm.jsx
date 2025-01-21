@@ -160,7 +160,7 @@ const ContactUsForm = () => {
           />
 
           {/* Preferred Contact Method */}
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <label className="flex items-center">
               <input
                 type="radio"
@@ -183,7 +183,7 @@ const ContactUsForm = () => {
               />
               Phone
             </label>
-          </div>
+          </div> */}
 
           {/* Deadline/Delivery Date */}
           <input

@@ -21,7 +21,7 @@ import MiddleBar from "./MiddleBar.jsx";
 import Stats from "../services/StatsBox.jsx";
 import ClientsSection from "./ClientsSection.jsx";
 import BlogSection from "./BlogSection.jsx";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import FormSection from "./FormSection.jsx";
 import { GoCheckCircleFill } from "react-icons/go";
 
@@ -166,7 +166,7 @@ const Home = () => {
           <div className="flex items-center gap-[20px] z-10">
             <button className="h-[45px] md:h-[50px] w-[150px] md:w-[170px] bg-[#4CA4FF] rounded-[5px] flex justify-center items-center transition-all hover:bg-[#666AE5]">
               <p className="text-[16px] md:text-[20px] capitalize text-[#FFFFFF] font-semibold">
-                <a href="https://calendly.com/trendsupmedia/strategy_session">Get Free Quote</a>
+                <NavLink to="/contact">Get Free Quote</NavLink>
               </p>
             </button>
 

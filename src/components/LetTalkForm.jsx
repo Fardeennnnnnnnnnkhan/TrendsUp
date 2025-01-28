@@ -95,7 +95,7 @@ const ContactUsForm = () => {
             onChange={handleInputChange}
             className="w-full p-4 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
-            <option value="">Select project type</option>
+            <option className="text-gray-600 text-xs" value="">Select Project Type</option>
             <option value="Dubbing">Dubbing</option>
             <option value="Voiceover">Voiceover</option>
             <option value="Subtitling & Closed Captioning">Subtitling & Closed Captioning</option>
@@ -109,24 +109,33 @@ const ContactUsForm = () => {
           </select>
 
           {/* Source Language */}
-          <input
-            type="text"
-            name="sourceLanguage"
-            placeholder="Select source language"
-            value={formData.sourceLanguage}
-            onChange={handleInputChange}
-            className="w-full p-4 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-          />
+          <select
+  name="sourceLanguage"
+  value={formData.sourceLanguage}
+  onChange={handleInputChange}
+  className="w-full p-4 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+>
+  <option value="" disabled>
+    Select source language
+  </option>
+  <option value="english">English</option>
+  <option value="spanish">Spanish</option>
+  <option value="french">French</option>
+  <option value="german">German</option>
+  <option value="chinese">Chinese</option>
+  <option value="hindi">Hindi</option>
+  <option value="arabic">Arabic</option>
+</select>
 
           {/* Target Languages */}
-          <input
+          {/* <input
             type="text"
             name="targetLanguages"
             placeholder="Select target language(s)"
             value={formData.targetLanguages}
             onChange={handleInputChange}
             className="w-full p-4 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-          />
+          /> */}
 
           {/* Project Description */}
           <textarea
@@ -186,7 +195,9 @@ const ContactUsForm = () => {
           </div> */}
 
           {/* Deadline/Delivery Date */}
+          <p>Project Deadline</p>
           <input
+          placeholder=""
             type="date"
             name="deadline"
             value={formData.deadline}

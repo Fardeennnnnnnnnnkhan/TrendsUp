@@ -76,14 +76,15 @@ const Header = () => {
             </NavLink>
           </div>
 
-          <button className="h-[40px] w-[160px] bg-[#4CA4FF] rounded-[5px] flex justify-center items-center transition-all hover:bg-[#666AE5]">
-            <Link
-              to="mailto:contact@trendsupmedia.com"
-              className="text-[15px] text-[#FFFFFF] font-semibold font-helvetica"
-            >
-              Let's Talk
-            </Link>
-          </button>
+          <button
+  className="h-[40px] w-[160px] bg-[#4CA4FF] rounded-[5px] flex justify-center items-center transition-all hover:bg-[#666AE5]"
+  onClick={() => (window.location.href = "mailto:contact@trendsupmedia.com")}
+>
+  <span className="text-[15px] text-[#FFFFFF] font-semibold font-helvetica">
+    Let's Talk
+  </span>
+</button>
+
         </div>
       </div>
       {/* mobile */}

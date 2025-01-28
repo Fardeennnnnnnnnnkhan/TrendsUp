@@ -89,7 +89,7 @@ const ContactUsForm = () => {
           />
 
           {/* Project Type */}
-          <select
+          {/* <select
             name="projectType"
             value={formData.projectType}
             onChange={handleInputChange}
@@ -106,10 +106,10 @@ const ContactUsForm = () => {
             <option value="Creative Writing">Creative Writing</option>
             <option value="Audio Description">Audio Description</option>
             <option value="Other">Other</option>
-          </select>
+          </select> */}
 
           {/* Source Language */}
-          <select
+          {/* <select
   name="sourceLanguage"
   value={formData.sourceLanguage}
   onChange={handleInputChange}
@@ -125,17 +125,25 @@ const ContactUsForm = () => {
   <option value="chinese">Chinese</option>
   <option value="hindi">Hindi</option>
   <option value="arabic">Arabic</option>
-</select>
+</select> */}
 
           {/* Target Languages */}
-          {/* <input
+          <input
+            type="text"
+            name="SourceLanguages"
+            placeholder="Select Source language"
+            value={formData.SourceLanguages}
+            onChange={handleInputChange}
+            className="w-full p-4 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          />
+          <input
             type="text"
             name="targetLanguages"
-            placeholder="Select target language(s)"
+            placeholder="Select Target language"
             value={formData.targetLanguages}
             onChange={handleInputChange}
             className="w-full p-4 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
-          /> */}
+          />
 
           {/* Project Description */}
           <textarea

@@ -10,6 +10,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import Logo from "../assets/logo_footer.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const handleCall = () => {
@@ -186,7 +187,7 @@ const Footer = () => {
   <p className="text-sm text-white text-center lg:text-left">
     Copyright &copy; 2025 TrendsUp Media | All Rights Reserved
   </p>
-  <a href="#"className="text-sm text-white text-center lg:text-right"> Design & Developed by Webexcep 😊</a>
+  <p className="text-sm text-white text-center lg:text-right"> Design & Developed by <Link className="font-bold underline text-orange-400" to="https://webexcep.in/">Webexcep</Link>   </p>
  
 </div>
 

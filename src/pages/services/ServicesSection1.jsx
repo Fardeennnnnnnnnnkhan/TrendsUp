@@ -59,7 +59,7 @@ const ServicesSection1 = () => {
           Services
         </h1>
 
-        <h2 className="max-w-[750px] text-[30px] mr-4 lg:mr-1 lg:text-[40px] mt-[42px] text-[#ffffff] font-semibold font-helvetica tracking-wide leading-snug uppercase z-10">
+        <h2 className="max-w-[750px] text-[30px] mr-4 lg:mr-1 lg:text-[40px] mt-[42px] text-[#ffffff] font-semibold font-helvetica tracking-wide leading-snug  z-10">
           AI Can’t Capture The Emotions, Timing & Cultural Sensitivity That We
           Promise You!
         </h2>

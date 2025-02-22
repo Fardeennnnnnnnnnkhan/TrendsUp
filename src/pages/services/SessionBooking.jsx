@@ -17,7 +17,7 @@ const SessionBooking=()=>{
       <div className="w-full lg:w-1/2 text-center lg:text-center">
         {/* Bouncing Heading */}
         <h1 className="text-7xl  mb-4 animate-bounce-slow text-[#FFFFFF] italic font-medium z-0">
-          Have a project ?
+          Have a project?
         </h1>
 
         {/* Subheading */}

@@ -20,7 +20,7 @@ const Language = () => {
         <section className="mt-16 mx-auto">
           <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-[#666AE5] md:text-5xl lg:text-4xl text-center">
             Popular{" "}
-            <mark class=" text-white bg-[#666AE5] rounded dark:bg-[#666AE5]">
+            <mark class="px-2 text-white bg-[#666AE5] rounded dark:bg-[#666AE5]">
               Indian Languages
             </mark>
           </h1>
@@ -78,7 +78,7 @@ const Language = () => {
         <section className="mt-16">
           <h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-[#666AE5] md:text-5xl lg:text-4xl text-center">
             Rare{" "}
-            <mark class=" text-white bg-[#666AE5] rounded dark:bg-[#666AE5]">
+            <mark class=" text-white px-2 bg-[#666AE5] rounded dark:bg-[#666AE5]">
               Indian Languages
             </mark>
           </h1>

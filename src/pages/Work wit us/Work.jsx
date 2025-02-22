@@ -156,7 +156,7 @@ const Work = () => {
             Here’s What We Look For In All Our Partners
           </h2>
           <div className="max-w-4xl  mx-auto">
-            <ul className="space-y-6">
+            <ul className="space-y-3">
               <li className="flex items-start">
                 <span className="text-blue-600 text-2xl mr-4">✔</span>
                 <p className="text-gray-700 ">

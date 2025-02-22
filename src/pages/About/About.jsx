@@ -50,7 +50,7 @@ const About = () => {
           {/* Heading Section */}
 
           <div className="w-full  py-10 text-center">
-            <h1 className="text-4xl md:text-5xl font-bold uppercase">
+            <h1 className="text-4xl md:text-5xl font-semibold ">
               It’s Always Better To Know Each Other!
             </h1>
           </div>

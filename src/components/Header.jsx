@@ -78,7 +78,7 @@ const Header = () => {
 
           <button
   className="h-[40px] w-[160px] bg-[#4CA4FF] rounded-[5px] flex justify-center items-center transition-all hover:bg-[#666AE5]"
-  onClick={() => (window.location.href = "mailto:contact@trendsupmedia.com")}
+  onClick={() => (window.location.href = "https://drive.google.com/drive/folders/1GCINArqXTQxA8XC4S8W-K5F83vPTxO16?usp=drive_link")}
 >
   <span className="text-[15px] text-[#FFFFFF] font-semibold font-helvetica">
     Let's Talk
